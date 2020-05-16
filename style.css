@@ -33,18 +33,15 @@ h2,
 h3,
 p, 
 a,
-i{
+i,
+button,
+li{
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     color: white;
 }
-
-.wrap{
-    display: flex;
-}
-
 
 /* setup above **************** DONT TOUCH************* */
 
@@ -67,6 +64,7 @@ h1{
     font-family: 'Italiana', sans-serif;
     font-size: 16.2rem;
     line-height: 14.04rem;
+    text-transform: uppercase;
 }
 
 h2{
@@ -74,13 +72,13 @@ h2{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 4.5rem;
-    text-align: center;
     line-height: 4.6rem;
 }
 
 h3{
     font-family: 'Italiana', sans-serif;
     font-size: 5.1rem;
+    text-transform: uppercase;
 }
 
 button{
@@ -88,28 +86,91 @@ button{
     font-size: 2.5rem;
     text-align: center;
     line-height: 2.9rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: .2rem solid #faba63;
 }
 
 i{
     font-family: 'Italiana', sans-serif;
     font-size: 3rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h4{
     font-family: 'Italiana', sans-serif;
     font-size: 2rem;
     text-align: right;
+    text-transform: uppercase;
 }
 
 .notMain{
     font-family: 'Italiana', sans-serif;
     font-size: 2rem;
     line-height: 2.9rem;
+    text-transform: uppercase;
 }
 
 /* font styles end *********************************************** */
 
+.top{
+    background-image: url(./assets/header-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.relative{
+    position: relative;
+}
+
+.centre{
+    text-align: center; 
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.rightT{
+    text-align: right;
+}
+
+.bar{
+    width: 4rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dark{
+    background: #14171f;
+}
+
+.darkTwo{
+    background: #201e21;
+}
+
+.email{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    padding: .5rem 2rem;
+}
+
+.submit{
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    border: none;
+}
 
 
 
@@ -120,7 +181,3 @@ h4{
 
 
 
-
-
-
-/* Font Styles Above */
