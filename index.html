@@ -13,16 +13,16 @@
 
 <body>
 
-    <header class="top relative">
+    <header class="top relative both">
         <div class="wrapper">
             <ul class="main">
-                <li class="left">Home</li>
-                <li class="left">About</li>
-                <li class="left">Blog</li>
-                <li>Contact</li>
+                <li class="left"><a href="#home">Home</a></li>
+                <li class="left"><a href="#about">About</a></li>
+                <li class="left"><a href="#blog">Blog</a></li>
+                <li class="left"><a href="#contact">Contact</a></li>
             </ul>
-            <div class="part">
-                <h1>
+            <div class="part" id="home">
+                <h1 class="both">
                     -Aro-<span>ra</span>
                 </h1>
                 <h2>
@@ -38,33 +38,25 @@
         </div>
     </header>
 
-    <section class="dark">
+    <section class="dark first both" id="about">
         <div class="wrapper">
             <img src="./assets/image-6@2x.png" alt="A lady making a bracelet" class="left quarter piece">
-            <div>
+            <div class="pies">
                 <h3>
                     Hand crafted
                 </h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eaque dolore magnam unde sit
-                    distinctio
-                    reprehenderit vel nemo mollitia vero autem dolor sint, deleniti, atque eius iusto ullam odio ab
-                    necessitatibus maiores quas optio. Aut dolor corrupti incidunt odio deleniti ducimus repudiandae
-                    neque
-                    tenetur eum distinctio maiores aliquid perferendis laudantium earum in accusantium rem assumenda,
-                    laborum ad eligendi? Debitis doloribus vel veritatis, nam fugit reprehenderit id dolorem cupiditate
-                    praesentium vitae voluptate, culpa odit provident ratione quas necessitatibus eligendi neque sed
-                    eaque
-                    expedita eum, ex repellat. Praesentium sunt alias impedit natus quibusdam laborum temporibus quo
-                    aperiam
-                    cum ex adipisci, perferendis numquam!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis mollitia deleniti quae praesentium.
+                    Exercitationem minima voluptates fuga repudiandae consequuntur necessitatibus iure ea quia!
+                    Assumenda doloremque perferendis impedit, quos ullam accusantium totam est officia consequatur ea
+                    error tenetur, modi unde dolorum odio iusto iste tempora culpa quo vitae, ratione debitis velit?</p>
                 <button>Read more</button>
             </div>
         </div>
     </section>
 
-    <section class="darkTwo">
+    <section class="darkTwo both" id="gallery">
         <div class="wrapper">
-            <h3 class="centre">
+            <h3 class="centre second">
                 Latest collection
             </h3>
             <div class="centre">
@@ -75,7 +67,7 @@
         </div>
     </section>
 
-    <section class="dark icons">
+    <section class="dark icons both" id="blog">
         <div class="wrapper centre">
             <div class="third left">
                 <i class="far fa-images"></i>
@@ -92,43 +84,44 @@
         </div>
     </section>
 
-    <section class="darkTwo blurb">
+    <section class="darkTwo mid both">
         <div class="wrapper">
-            <div class="half mid left">
+            <div class="half left lines">
                 <h3 class="eightR">
                     Sustainable materials
                 </h3>
-                <p class="eightR">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum iusto
-                    consectetur, ex delectus
-                    repellendus rem et sed fugiat ea esse?</p>
+                <p class="eightR">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo totam consequatur
+                    reprehenderit veritatis a eveniet accusamus quos eum, similique amet necessitatibus? Voluptas nulla
+                    veniam aspernatur! Autem odio doloremque nostrum!</p>
                 <button>Read more</button>
             </div>
         </div>
         <img src="./assets/image-2@2x.png" alt="A model wearing necklaces" class="half mid">
     </section>
-    <section class="darkTwo blurb">
+    <section class="darkTwo mid">
         <img src="./assets/image-2-copy@2x.png" alt="A model wearing rings and a watch" class="half mid left">
         <div class="wrapper darkTwo">
-            <div class="half mid left">
+            <div class="half left lines">
                 <h3 class="eightL">
                     Mix & match
                 </h3>
-                <p class="eightL">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero explicabo
-                    natus. Esse
-                    asperiores
-                    saepe labore molestias dolore aspernatur eligendi, enim qui reprehenderit voluptate doloremque?</p>
+                <p class="eightL">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nihil deserunt cum
+                    necessitatibus, veritatis, tenetur non ratione repudiandae dicta ex porro fugit odio animi
+                    aspernatur praesentium dolorem. Suscipit, commodi obcaecati sunt architecto optio beatae fugiat
+                    accusamus libero tempora tempore nihil nulla vero eveniet quibusdam officiis esse similique, ipsa
+                    molestiae recusandae?</p>
                 <button class="eightL">Read more</button>
             </div>
         </div>
     </section>
 
-    <footer class="dark relative">
+    <footer class="dark both">
         <div class="wrapper foot">
             <ul class="notMain left quarter">
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Gallery</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="left half">
                 <h4 class="centre">
@@ -136,12 +129,12 @@
                 </h4>
                 <p class="centre">Subscribe to out newsletter to stay updated.</p>
                 <form action="Mail List" method="GET" class="mailingList centre" name="myForm">
-                    <input type="email" id="emailAdd" class="email" value="email address">
-                    <input type="submit" value="Subscribe" class="submit">
+                    <input type="email" id="emailAdd" class="email left" placeholder="email address" size="40">
+                    <input type="submit" value="Subscribe" class="submit left">
                 </form>
             </div>
             <div class="right quarter">
-                <h4 class="rightT">
+                <h4 class="rightT" id="contact">
                     Contact
                 </h4>
                 <p class="rightT">
@@ -151,9 +144,9 @@
                 </p>
             </div>
         </div>
-            <p class="centre black footy">
-                Copyright © 2019 HackerYou
-            </p>
+        <p class="centre footy">
+            Copyright © 2019 HackerYou
+        </p>
     </footer>
 
 </body>
