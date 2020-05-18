@@ -12,10 +12,10 @@ body {
     overflow: auto;
 }
 
- .clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; } 
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; } 
 
 .wrapper {
-    max-width: 1140px;
+    max-width: 114rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -267,15 +267,211 @@ h4 {
     height: 3rem;
 }
 
-/* alignment and basic structuring completed */
-
 .first{
     height: 40rem;
 }
 
+/* media styles and menus below *****************************/
 
+.button{
+    display: none;
+    color: white;
+    padding: .5rem 3rem;
+    font-size: 6rem;
+    border: none;
+}
 
+.drop{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
 
+.menu{
+    display: none;
+}
 
+.menu a{
+    color: white;
+    padding: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
 
+.hiddenQ{
+    display: none;
+}
 
+.hiddenW{
+    display: none;
+}
+
+.hiddenR{
+    display: none;
+}
+
+.hiddenA{
+    display: none;
+}
+
+@media(max-width: 450px){
+    .wrapper{
+        width: 100%;
+    }
+    .top{
+        background-image: url(./assets/header-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: none;
+    }
+
+    .button{
+        display: inline;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    h1{
+        padding-top: 25rem;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .first{
+        height: 75rem;
+        width: 100%;
+    }
+    .piece{
+        display: none;
+    }
+    .hiddenE{
+        display: none;
+    }
+    .hiddenT{
+        display: none;
+    }
+    .hiddenG{
+        display: none;
+    }
+    .hiddenQ{
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 5rem;
+    }
+    .hiddenW{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .hiddenR{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .hiddenA{
+        display: inline;
+    }
+    .pies{
+        text-align: center;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    p{
+        display: block;
+        width: 100%;
+        text-align: left;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+    .third{
+        margin-bottom: 5rem;
+    }
+    .icons{
+        height: 40rem;
+        padding: 5rem 0;
+        text-align: center;
+    }
+    .icons .third{
+        width: 100%;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .lines{
+        width: 95%;
+        text-align: center;
+        height: 30rem;
+    }
+    .eightR{
+        margin-right: 0;
+    }
+    .eightL{
+        margin-left: 0;
+    }
+    .lines .button{
+        margin-bottom: 10rem;
+    }
+    .sectional .lines{
+        width: 100%;
+    }
+    .foot{
+        padding-top: 2rem;
+        height: 40rem;
+    }
+    .notMain{
+        width: 100%;
+    }
+    .notMain li{
+        float: left;
+        margin-left: 2rem;
+    }
+    .form{
+        width: 100%;
+        padding-top: 4rem;
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+    h4{
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
+    .foot p{
+        font-size: 1.6rem;
+    }
+    .email{
+        width: 80%;
+        margin: 0 5%;
+    }
+    .submit{
+        width: 90%;
+        margin: 0 5% 4rem 5%;
+    }
+    .right{
+        float: none;
+    }
+    .rightT{
+        text-align: center;
+    }
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+    .contact h4{
+        padding-bottom: 0;
+    }
+}
+
+/* complete ***************************** */
